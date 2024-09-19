@@ -1,0 +1,70 @@
+DELETE FROM "Reserves";
+DELETE FROM "Boats";
+DELETE FROM "Sailors";
+
+/*
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+*/
+-- INSERT INTO "Sailors" 
+-- VALUES
+-- (1,'رضا',45,10),
+-- (2,'احمد',36,5);
+
+
+INSERT INTO "Sailors" VALUES(1,'رضا',45,10);
+INSERT INTO "Sailors" VALUES(2,'احمد',36,5);
+INSERT INTO "Sailors" VALUES(3,'بهروز',50,9);
+INSERT INTO "Sailors" VALUES(4,'مریم',34,8);
+INSERT INTO "Sailors" VALUES(5,'زهرا',24,2);
+INSERT INTO "Sailors" VALUES(6,'علی',20,2);
+INSERT INTO "Sailors" VALUES(7,'سیاوش',20,10);
+INSERT INTO "Sailors" VALUES(8,'شهاب',35,3);
+INSERT INTO "Sailors" VALUES(9,'امیر',58,10);
+INSERT INTO "Sailors" VALUES(10,'غلام',55,5);
+
+INSERT INTO "Boats" VALUES(1,'آبی','شفق');
+INSERT INTO "Boats" VALUES(2,'قرمز','تندرو');
+INSERT INTO "Boats" VALUES(3,'آبی','خورشید');
+INSERT INTO "Boats" VALUES(4,'سبز','خلیج فارس');
+INSERT INTO "Boats" VALUES(5,'آبی','ایران');
+INSERT INTO "Boats" VALUES(6,'سبز','خزر');
+
+INSERT INTO "Reserves" VALUES(1,1,'2011-02-12');
+INSERT INTO "Reserves" VALUES(1,1,'2011-02-24');
+INSERT INTO "Reserves" VALUES(1,2,'2011-02-25');
+INSERT INTO "Reserves" VALUES(1,3,'2011-02-26');
+INSERT INTO "Reserves" VALUES(1,4,'2011-02-24');
+INSERT INTO "Reserves" VALUES(1,5,'2011-02-26');
+INSERT INTO "Reserves" VALUES(1,6,'2011-02-28');
+INSERT INTO "Reserves" VALUES(6,1,'2011-02-12');
+INSERT INTO "Reserves" VALUES(6,1,'2011-02-24');
+INSERT INTO "Reserves" VALUES(6,2,'2011-02-25');
+INSERT INTO "Reserves" VALUES(6,3,'2011-02-26');
+INSERT INTO "Reserves" VALUES(6,4,'2011-02-24');
+INSERT INTO "Reserves" VALUES(6,5,'2011-02-26');
+INSERT INTO "Reserves" VALUES(6,6,'2011-02-28');
+INSERT INTO "Reserves" VALUES(2,1,'2011-02-12');
+INSERT INTO "Reserves" VALUES(2,1,'2011-02-24');
+INSERT INTO "Reserves" VALUES(2,2,'2011-02-25');
+INSERT INTO "Reserves" VALUES(2,3,'2011-02-26');
+INSERT INTO "Reserves" VALUES(3,4,'2011-02-24');
+INSERT INTO "Reserves" VALUES(3,5,'2011-02-26');
+INSERT INTO "Reserves" VALUES(3,6,'2011-02-28');
+INSERT INTO "Reserves" VALUES(4,1,'2011-02-12');
+INSERT INTO "Reserves" VALUES(5,1,'2011-02-24');
+INSERT INTO "Reserves" VALUES(4,2,'2011-02-25');
+INSERT INTO "Reserves" VALUES(5,3,'2011-02-26');
+INSERT INTO "Reserves" VALUES(4,4,'2011-02-24');
+INSERT INTO "Reserves" VALUES(5,5,'2011-02-26');
+INSERT INTO "Reserves" VALUES(4,6,'2011-02-28');
+INSERT INTO "Reserves" VALUES(7,1,'2011-02-12');
+INSERT INTO "Reserves" VALUES(7,1,'2011-02-24');
+INSERT INTO "Reserves" VALUES(8,2,'2011-02-25');
+INSERT INTO "Reserves" VALUES(8,3,'2011-02-26');
+INSERT INTO "Reserves" VALUES(8,4,'2011-02-24');
+INSERT INTO "Reserves" VALUES(7,5,'2011-02-26');
+INSERT INTO "Reserves" VALUES(8,6,'2011-02-28');
+
+
+
